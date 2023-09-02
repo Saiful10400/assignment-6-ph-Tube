@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ph tube blog.</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- tal and daisy link. -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="bg-white flex gap-2 justify-center items-center py-6"> <img src="../img/Logo.png" alt=""> <span
+            class="text-4xl font-bold text-red-500">Blog</span></header>
+
+<!-- this is the question and ans section. -->
+            <section class="w-[80%] mx-auto mt-7">
+
+                <!-- question 1 -->
+                <div >
+                    <h1 class="text-4xl font-bold text-red-400"><span class="text-5xl text-red-500">Q1.</span>Discuss the scope of var, let, and const.</h1>
+                    <!-- this is ans section. -->
+                    <section class="mt-4 text-2xl">
+                        <p class="mb-9">
+                             <span class="text-4xl font-bold text-green-500"><span class="text-5xl">A</span>ns.</span> The var, let, and const is the keyword to declare variables in javascript. The var variable is an old method to declare a variable in javascript. In modern javascript, we use the let and const variable, which was introduced in the ES2015(ES6) update; now, the let and const variable is used more frequently in modern javascript as compared to the var variable.
+                        </p>
+                        <table class="">
+                            <h1 class="text-red-600 font-bold text-center text-base lg:text-4xl ">Diffrence & similarit between let,var and const</h1>
+                            <tr class="text-center border-2 border-gray-800">
+                                <th class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">var</th>
+                                <th class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">let</th>
+                                <th class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">const</th>
+                            </tr>
+                            <tr class="text-center border-2">
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">The scope of a var variable is functional scope.</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">The scope of a let variable is block scope.</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">The scope of a const variable is block scope.</td>
+                            </tr>
+                            <tr class="text-center border-2">
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">It can be updated and re-declared into the scope.</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">It can be updated but cannot be re-declared into the scope.</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">It cannot be updated or re-declared into the scope.</td>
+                            </tr>
+                            <tr class="text-center border-2">
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">It can be declared without initialization.</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">	It can be declared without initialization.</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">	It cannot be declared without initialization.</td>
+                            </tr>
+                            <tr class="text-center border-2">
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">It can be accessed without initialization as its default value is “undefined”.</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">It cannot be accessed without initialization otherwise it will give ‘referenceError’.</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">It cannot be accessed without initialization, as it cannot be declared without initialization.</td>
+                            </tr>
+                            <tr class="text-center border-2">
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">hoisting done, with initializing as ‘default’ value</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">Hoisting is done, but not initialized (this is the reason for the error when we access the let variable before declaration/initialization</td>
+                                <td class="text-center border lg:border-2 lg:text-2xl text-sm border-gray-800  lg:px-4">Hoisting is done, but not initialized (this is the reason for the error when we access the const variable before declaration/initialization</td>
+                            </tr>
+                        </table>
+                    </section>
+                </div>
+
+                <!-- question 2 -->
+                <div class="mt-9">
+                    <h1 class="text-4xl font-bold text-red-400"><span class="text-5xl text-red-500">Q2.</span>Tell us the use cases of null and undefined.</h1>
+                    <!-- this is ans section. -->
+                    <section class="mt-4 text-2xl">
+
+                        <p>
+                             <span class="text-4xl font-bold text-green-500"><span class="text-5xl">A</span>ns.</span> Null in JavaScript means an empty value and is also a primitive type in JavaScript. The variable which has been assigned as null contains no value. Undefined, on the other hand, means the variable has been declared, but its value has not been assigned.
+                        </p>
+                    </section>
+                </div>
+
+                <!-- question 3 -->
+                <div class="mt-9">
+                    <h1 class="text-4xl font-bold text-red-400"><span class="text-5xl text-red-500">Q3.</span>What do you mean by REST API?</h1>
+                    <!-- this is ans section. -->
+                    <section class="mt-4 text-2xl">
+
+                        <p> <span class="text-4xl font-bold text-green-500"><span class="text-5xl">A</span>ns.</span> A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer and was created by computer scientist Roy Fielding.</p>
+                    </section>
+                </div>
+            </section>
+</body>
+
+</html>
